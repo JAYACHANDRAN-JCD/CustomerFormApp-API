@@ -1,0 +1,6 @@
+@RapidDrop_HostAddress = http://localhost:5150
+
+GET {{RapidDrop_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
