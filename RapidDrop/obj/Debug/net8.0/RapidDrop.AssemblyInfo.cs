@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RapidDrop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+701b6c880e276f229200f2eed2d59b93b76dba99")]
 [assembly: System.Reflection.AssemblyProductAttribute("RapidDrop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RapidDrop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
