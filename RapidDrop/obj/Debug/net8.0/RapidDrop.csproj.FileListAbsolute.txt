@@ -31,3 +31,9 @@ C:\Jai\customerformapp-backend\RapidDrop\RapidDrop\obj\Debug\net8.0\refint\Rapid
 C:\Jai\customerformapp-backend\RapidDrop\RapidDrop\obj\Debug\net8.0\RapidDrop.pdb
 C:\Jai\customerformapp-backend\RapidDrop\RapidDrop\obj\Debug\net8.0\RapidDrop.genruntimeconfig.cache
 C:\Jai\customerformapp-backend\RapidDrop\RapidDrop\obj\Debug\net8.0\ref\RapidDrop.dll
+C:\Jai\customerformapp-backend\RapidDrop\RapidDrop\bin\Debug\net8.0\DnsClient.dll
+C:\Jai\customerformapp-backend\RapidDrop\RapidDrop\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Jai\customerformapp-backend\RapidDrop\RapidDrop\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Jai\customerformapp-backend\RapidDrop\RapidDrop\bin\Debug\net8.0\SharpCompress.dll
+C:\Jai\customerformapp-backend\RapidDrop\RapidDrop\bin\Debug\net8.0\Snappier.dll
+C:\Jai\customerformapp-backend\RapidDrop\RapidDrop\bin\Debug\net8.0\ZstdSharp.dll

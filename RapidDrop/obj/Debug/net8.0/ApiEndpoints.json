@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "DeliveryController",
+    "Method": "SaveDelivery",
+    "RelativePath": "api/delivery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "delivery",
+        "Type": "Delivery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DeliveryController",
+    "Method": "GetDeliveries",
+    "RelativePath": "api/delivery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RapidDrop.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
