@@ -18,13 +18,14 @@ builder.Services.AddCors(options =>
 builder.Services.Configure<MongoDBSettings>(
     builder.Configuration.GetSection("MongoDB"));
 
-// Register the DeliveryService as a singleton
-builder.Services.AddSingleton<DeliveryService>();
+// Register services
+builder.Services.AddScoped<DeliveryService>();
+builder.Services.AddScoped<WhatsAppService>();
 
-// Add controllers to handle API routes
+// Add controllers
 builder.Services.AddControllers();
 
-// Configure Swagger for API documentation
+// Configure Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -41,9 +42,7 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowFrontend");
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

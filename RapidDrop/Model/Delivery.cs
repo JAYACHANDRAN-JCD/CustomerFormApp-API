@@ -13,4 +13,5 @@ public class Delivery
     public string Product { get; set; }
     public decimal Price { get; set; }
     public DateTime DeliveryDate { get; set; }
+    public string RatingStar { get; set; }
 }

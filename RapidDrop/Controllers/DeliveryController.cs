@@ -5,10 +5,12 @@
 public class DeliveryController : ControllerBase
 {
     private readonly DeliveryService _deliveryService;
+    private readonly WhatsAppService _whatsAppService;
 
-    public DeliveryController(DeliveryService deliveryService)
+    public DeliveryController(DeliveryService deliveryService, WhatsAppService whatsAppService)
     {
         _deliveryService = deliveryService;
+        _whatsAppService = whatsAppService;
     }
 
     [HttpPost]
@@ -18,6 +20,7 @@ public class DeliveryController : ControllerBase
             return BadRequest("Delivery data is required.");
 
         await _deliveryService.CreateAsync(delivery);
+        var ratingService = await _whatsAppService.SendRatingRequest(delivery.WhatsAppNumber);
         return Ok(new { message = "Delivery saved successfully!" });
     }
 

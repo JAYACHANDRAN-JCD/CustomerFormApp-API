@@ -26,6 +26,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WhatsAppController",
+    "Method": "SendMessage",
+    "RelativePath": "api/whatsapp/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WhatsAppMessageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WhatsAppController",
+    "Method": "SendRatingRequest",
+    "RelativePath": "api/whatsapp/send-rating",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RatingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RapidDrop.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
